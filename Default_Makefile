@@ -96,13 +96,13 @@ gtest_main.a : gtest-all.o gtest_main.o
 # -----------------------------------------------------------------------
 
 # Add tests to be compiled
-#basicHeapTests: basicHeapTests.cpp gtest_main.a $(GTEST_HEADERS)
+# basicHeapTests: basicHeapTests.cpp gtest_main.a $(GTEST_HEADERS)
 #	g++ $(CPPFLAGS) basicHeapTests.cpp gtest_main.a $(CXXFLAGS) -lpthread -o $@
 
 # -----------------------------------------------------------------------
 
 # Object files to be made
-#main.o: main.cpp main.h
+# main.o: main.cpp main.h
 #	$(CC) $(CFLAGS) main.o
 
 # -----------------------------------------------------------------------
